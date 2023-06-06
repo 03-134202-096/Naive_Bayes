@@ -1,0 +1,26 @@
+
+
+#############     NAIVE BAYES    ###################
+
+
+
+# 
+# import pandas as pd
+# from sklearn.naive_bayes import GaussianNB
+# from sklearn.preprocessing import LabelEncoder
+# from sklearn.model_selection import train_test_split
+# 
+# 
+# df=pd.read_csv("Naive_Bayes_dataset.csv")
+# x=df[[ 'Gender',  'Age',  'EstimatedSalary' ]].values
+# y=df['Purchased'].values
+# Le=LabelEncoder()
+# x[:,0]=Le.fit_transform(x[:,0])
+# 
+# train_x,test_x,train_y,test_y=train_test_split(x,y)
+# 
+# Nb=GaussianNB()
+# Nb.fit(train_x,train_y)
+# 
+# print(Nb.predict(test_x))
+# 
